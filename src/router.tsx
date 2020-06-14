@@ -8,7 +8,7 @@ const Routes = () => {
     return (
         <BrowserRouter>
             <Route component={Pokedex} path='/' exact/>
-            <Route component={Detail} path='/:id' />
+            <Route component={Detail} path='/:id' exact/>
         </BrowserRouter>
     )
 }
