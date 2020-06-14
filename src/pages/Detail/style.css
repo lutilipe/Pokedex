@@ -1,0 +1,121 @@
+.detail-grid {
+    max-width: 1000px;
+    margin: 0px auto;
+    background: #fdfdfd;
+    padding: 20px 0;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detail-grid header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.id {
+    color: #616161;
+}
+
+.detail-content {
+    margin: 32px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .detail-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .detail-content img {
+        margin-bottom: 20px;
+    }
+
+}
+
+.detail-content .info {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+.detail-content img {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 6px;
+    width: 90%;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    justify-items: start;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.details li {
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 50%;
+    
+}
+
+.details li span {
+    margin: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.details .detail-name {
+    font-size: 1.2rem;
+}
+
+.detail-content .info .stats-container {
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    padding: 7px 7px 0;
+}
+
+.stats-container .bar {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.stats-container .bar .bar-percentage {
+    background-color: #30a7d7;
+    height: 100%;
+}
+
+.detail-grid footer {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-grid footer button {
+    background-color: #ee6b2f;
+    padding: 10px;
+    color: #FFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 30px;
+    letter-spacing: 0.2px;
+    outline: none;
+    cursor: pointer;
+}
