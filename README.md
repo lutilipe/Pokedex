@@ -25,7 +25,7 @@ You'll need to have installed on your computer before starting the project:
 # Clone the repository
 $ git clone https://github.com/lutilipe/Pokedex.git
 
-$ cd pokedex/
+$ cd Pokedex/
 
 $ yarn install
 
